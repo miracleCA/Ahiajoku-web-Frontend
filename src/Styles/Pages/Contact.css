@@ -1,0 +1,78 @@
+#Contact #sponstxt {
+    background-image: url(/src/Images/ContImg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#Contact {
+    background-color: #e5d7b1;
+}
+#Contact .col-6 {
+    display: grid;
+    width: 45%;
+    padding: 200px 5%;
+}
+#Contact .Navsec a {
+    color: black;
+}
+#Contact .col-6 form input, #Contact .col-6 form select {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #696969;
+    margin-bottom: 4%;
+    padding: 0px 15px;
+}
+#Contact .col-6 form textarea {
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin-bottom: 5%;
+}
+#Contact .col-6 form input::placeholder, #Contact .col-6 form textarea::placeholder {
+    font-family: Poppins;
+    color: #696969;
+}
+#Contact .col-6 form {
+    font-family: Satoshi;
+}
+#Contact .col-6 form label {
+    font-weight: 700;
+    font-size: 18px;
+}
+#Contact .col-6 form button {
+    font-family: Poppins;
+    background-color: #008080;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 50px;
+    justify-self: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 780px) { 
+    #Contact #sponsform {
+        display: grid  ;
+    }
+    #Contact #sponstxt {
+        max-width: 100%;
+        width: 100%;
+        display: grid;
+        min-inline-size: fit-content;
+        padding: 10% 5%;
+        text-align: center;
+    }
+    #Contact #sponstxt h2 {
+        font-size: 20px;
+    }
+    #Contact #sponstxt p {
+        font-size: 15px;
+    }
+    #Contact #spofrom {
+        display: contents;
+        width: 100%;
+    }
+    #Contact .col-6 form {
+        padding: 5% 0px;
+    }
+}

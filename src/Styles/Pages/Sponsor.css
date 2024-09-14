@@ -1,0 +1,93 @@
+#sponsor {
+    background-color: #e5d7b1;
+}
+#sponsor .col-6 {
+    display: grid;
+    width: 45%;
+    padding: 200px 5%;
+}
+#sponsor .Navsec a {
+    color: black;
+}
+#sponsform {
+    display: flex;
+    padding: 0px 5%;
+    margin-bottom: 5%;
+}
+#sponstxt {
+    background-image: url(/src/Images/Sponsor.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+/*  background-color: #696969; */    
+    color: white;
+    border-radius: 10px;
+    padding: 20% 30%;
+    font-family: Satoshi;
+    align-content: center;
+}
+#sponstxt h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+#sponstxt p {
+    font-size: 25px;
+}
+#sponsor .col-6 form input, #sponsor .col-6 form select {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #696969;
+    margin-bottom: 4%;
+    padding: 0px 15px;
+}
+#sponsor .col-6 form input::placeholder {
+    font-family: Poppins;
+    color: #696969;
+}
+#sponsor .col-6 form {
+    font-family: Satoshi;
+}
+#sponsor .col-6 form label {
+    font-weight: 700;
+    font-size: 18px;
+}
+#sponsor .col-6 form button {
+    font-family: Poppins;
+    background-color: #008080;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 50px;
+    justify-self: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline-style: none;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 780px) { 
+    #sponsform {
+        display: grid  ;
+    }
+    #sponsor #sponstxt {
+        min-inline-size: fit-content;
+        padding: 10% 5%;
+        text-align: center;
+    }
+    #sponstxt h2 {
+        font-size: 20px;
+    }
+    #sponstxt p {
+        font-size: 15px;
+    }
+    #sponsor #spofrom {
+        display: contents;
+        width: 100%;
+    }
+    #sponsor .col-6 form {
+        padding: 5% 0px;
+    }
+}

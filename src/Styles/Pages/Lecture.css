@@ -1,0 +1,41 @@
+#Lecture, #Lecture #lectdata {
+    background-color: #e5d7b1;
+    font-family: Satoshi;
+}
+#Lecture #navbarNav a {
+    color: black;
+}
+#lectvdata {
+    display: grid;
+    padding: 0px 10%;
+    padding-bottom: 5%;
+}
+#authbio { 
+    display: flex;
+}
+#authbio img {
+    width: 35%;
+    height: 130px;
+}
+#authbio span {
+    padding-left: 5%;
+}
+#lect {
+    padding: 0px 5%;
+}
+
+@media screen and (max-width: 780px) {
+    #lectvdata {
+        padding: 0px 5%;
+        place-content: center;
+    }
+    #authbio {
+        display: grid;
+    }
+    #authbio span {
+        padding-left: 0px;
+    }
+    #authbio span strong {
+        padding: 5px 0px;
+    }
+}

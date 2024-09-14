@@ -1,0 +1,99 @@
+.Navsec {
+    width: -webkit-fill-available;
+    padding: 2% 5%;
+    font-family: satoshi;
+}
+.Navsec .navbar-toggler, .Navsec .navbar-toggler:hover, .Navsec .navbar-toggler:active {
+    color: rgb(177, 134, 14);
+    border: 2px solid rgb(177, 134, 14);
+}
+.Navsec .navbar-toggler-icon {
+    color: #b1860e;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(177, 134, 14)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.Navsec .navbar {
+    width: 100%;
+}
+#navimg {
+    width: 50px;
+}
+.Navsec a {
+    color: white;
+}
+.Navsec .navbar-brand {
+    width: 20%;
+}
+#midnav .nav-item a:hover {
+    color: #a58e31;
+}
+#midnav .nav-item a:active {
+    color: #a58e31;
+}
+#midnav .nav-item a:focus {
+    color: #a58e31;
+}
+#midcov {
+    justify-content: center;
+}
+#midnav {
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    width: 70%;
+}
+#endnav {
+    justify-content: end;
+    width: 30%;
+}
+#endnav #prt:hover {
+    color: #a58e31;
+}
+#endnav button {
+    background-color: #308A11;
+    color: white;
+    border-radius: 10px;
+    padding: 4% 5%;
+} 
+#endnav button:hover {
+    background-color: #a58e31;
+}
+.navbar-toggler {
+    border: #20486E 2px solid;
+    color: #20486E;
+}
+.navbar-toggler:active {
+    border: #20486E 2px solid;
+    color: #20486E;
+}
+.navbar-toggler:hover {
+    border: 4px #20486E solid;
+}
+.navbar-collapse {
+    text-align: -webkit-center;
+}
+.show li {
+    padding: 2%;
+}
+.show #endnav {
+    width: 100%;
+}
+.show #endnav button {
+    padding: 4% 5%;
+}
+@media screen and (min-width: 900px) {
+    #endnav button {
+        padding: 2% 5%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1490px) {
+    #midcov {
+        width: 80%;
+    }
+    #endnav {
+        width: 20%;
+    }
+    #navbarNav ul a {
+        font-size: 15px;
+    }
+}

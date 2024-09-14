@@ -1,0 +1,87 @@
+.footer {
+    display: grid;
+    font-family: inter;
+}
+#foot1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #a58e31;
+    padding-bottom: 2%;
+    align-items: center;
+}
+
+#foot1 #f1, #foot1 #f3 {
+    width: 30%;
+}
+#foot1 #f2 {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    font-family: inter;
+}
+#f2 a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+#f2 a:hover {
+    color: #a58e31;
+}
+#f2 a:active {
+    color: #a58e31;
+}
+#foot1 #f3 {
+    justify-content: end;
+}
+#foot1 #f3 i:hover, #foot1 #f3 i:focus, #foot1 #f3 i:active {
+    color: #bc983c;
+}
+#foot1 a {
+    padding: 0px 10px;
+}
+#foot1 i {
+    font-size: 20px;
+    color: #868686;
+    padding: 0px 10px;
+}
+#foot2 {
+    padding-top: 2%;
+    font-size: 20px;
+}
+#brkk {
+    display: none;
+}
+
+@media screen and (max-width: 780px) {
+    #foot1 {
+        display: grid;
+        justify-content: unset;
+    }
+    #foot1 span {
+        margin: 4% 0px;
+    }
+    #foot1 #f1, #foot1 #f2, #foot1 #f3 {
+        width: 100%;
+        text-align: center;
+    }
+    #foot1 #f2 {
+        justify-content: unset;
+        place-content: center;
+    }
+    #foot1 #f2 a {
+        font-size: 10px;
+        width: 33.33%;
+        text-align: center;
+        justify-self: center;
+        place-content: center;
+    }
+    #foot1 #f3 { 
+        justify-content: center;
+    }
+    #foot2 {
+        font-size: 15px;
+    }
+    #brkk {
+        display: block;
+    }
+}

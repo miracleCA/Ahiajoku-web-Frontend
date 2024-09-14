@@ -1,0 +1,100 @@
+#join {
+    display: flex;
+    background-color: #232323;
+    color: white;
+    font-family: Poppins;
+}
+#join .col-8 {
+    padding: 3% 7%;
+    align-self: center;
+}
+#vv {
+    display: none;
+}
+#join #a, #join #b {
+    display: none;
+}
+#iconn span {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+}
+#join i {
+    color: #FFD700;
+    text-align: center;
+}
+#join strong {
+    padding: 0px 10px;
+}
+#join button {
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 12px 20px;
+    background-color: white;
+    border: none;
+    color: #000000;
+    font-weight: 600;
+}
+#join button:hover {
+    background-color: #a58e31;
+    color: white;
+}
+#join img {
+    width: -webkit-fill-available;
+}
+
+@media screen and (max-width: 780px) {
+    #join {
+        display: grid;
+    }
+    #join .col-8, #join .col-4 {
+        display: none;
+        padding: 20px 10px;
+    }
+    #join #a {
+        order: 2;
+        display: contents;
+        text-align: center;
+    }
+    #join #a span, #join #a #iconn {
+        padding: 0px 3%;
+    }
+    #join #a h2 {
+        font-size: 20px;
+        text-align: center;
+        place-content: center;
+        padding-top: 20px;
+    }
+    #join #a span {
+        font-size: 18px;
+        text-align: center;
+        place-content: center;
+    }
+    #join #a h3 {
+        font-size: 20px;
+    }
+    #iconn span {
+        font-size: 15px;
+        display: block;
+        text-align: justify;
+        place-content: unset;
+        text-align: justify;
+    }
+    #join #b {
+        order: 1;
+        width: 100%;
+        display: contents;
+        height: 500px;
+    }
+    #join .col-4 img {
+        width: -webkit-fill-available;
+        height: 500px;
+    }
+    #vv {
+        display: grid;
+    }
+    #join button {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}

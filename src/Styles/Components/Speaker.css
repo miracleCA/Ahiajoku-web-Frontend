@@ -1,0 +1,47 @@
+#speakers .card {
+    background: transparent;
+    width: -webkit-fill-available;
+}
+
+#speakers .card-body {
+    text-align: center;
+    color: white;
+}
+#sptxthd {
+    font-size: 30px;
+}
+
+#speakers .dMydrg {
+    background-color: transparent;
+  }
+  #speakers .dMydrg:hover:enabled, #speakers .dMydrg:focus:enabled {
+    color: #fff;
+    background-color: #bc983c;
+    box-shadow: 0 0 2px 0 #333;
+  }
+  #speakers .fuFKqj {
+    color: #fff;
+    background-color: #bc983c;
+    box-shadow: 0 0 2px 0 #333;
+  }
+  #speakers .fuFKqj:hover:enabled, #speakers .fuFKqj:active:enabled {
+    border: #bc983c;
+    outline-color: #bc983c;
+    box-shadow: #bc983c;
+  }
+  
+  @media (max-width: 768px) {
+    #speakers .kDqOaG, #speakers .dMydrg {
+      width: 20px;
+      min-width: 20px;
+      height: 20px;
+      line-height: unset;
+      font-size: 10px;
+    }
+  }
+
+@media screen and (max-width: 780px) {
+    #sptxthd {
+        font-size: 22px;
+    }
+}

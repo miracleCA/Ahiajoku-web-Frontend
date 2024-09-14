@@ -1,0 +1,130 @@
+#newhd {
+    background-image: url(/src/Images/newbg.png);
+    height: 800px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#newhd #header {
+    padding: 0px 3%;
+}
+#history {
+    background-color: #232323;
+    background-image: linear-gradient(to top, #232323, rgba(255, 255, 255, 0.088));
+    display: flex;
+}
+#history .col-4 {
+    padding: 0px;
+}
+#history .col-4 img {
+    text-align: start;
+    position: relative;
+    width: 130%;
+    height: auto;
+    right: 22%;
+}
+#history .col-6 {
+    padding: 15% 0px;
+    display: grid;
+    color: white; 
+    font-family: Satoshi;
+}
+#history .col-6 h2 {
+    font-weight: 700;
+    font-size: 35px;
+}
+#history .col-6 span {
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 1%;
+}
+#history .col-6 p {
+    font-size: 20px;
+}
+#symb {
+    display: flex;
+    background-color: #f2e2bb;
+    font-family: Satoshi;
+    padding: 5% 7%;
+}
+.mm {
+    display: none;
+}
+#symb .col-6 img {
+    align-self: center;
+}
+#gallry {
+    background-color: #f2e2bb;
+    padding: 3% 7%;
+    font-family: Satoshi;
+    justify-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+    #newhd span {
+        font-size: 22px;
+    }
+    #history {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        padding: 0px 3%;
+    }
+    #history .col-4 img {
+        width: 300px;
+        text-align: center;
+        justify-self: center;
+        position: unset;
+    }
+    #history .col-4, #history .col-6 {
+        justify-self: center;
+        display: contents;
+    }
+
+    #history .col-6 h2 {
+        font-size: 25px;
+    }
+    #history .col-6 span {
+        font-size: 20px;
+        padding-bottom: 1%;
+    }
+    #history .col-6 p {
+        font-size: 17px;
+    }
+    #history .col-2 {
+        display: none;
+    }
+    #symb {
+        display: none;
+    }
+    .mm {
+        display: grid;
+        place-items: center;
+        background-color: #f2e2bb;
+        font-family: Satoshi;
+        padding: 5% 7%;
+    }
+    .mm #order1 {
+        order: 2;
+        display: contents;
+        text-align: center;
+    }
+    .mm #order1 h2 {
+        font-size: 25px;
+    }
+    .mm #order1 span {
+        font-size: 18px;
+    }
+    .mm #order2 {
+        order: 1;
+        display: contents;
+        width: 100%;
+    }
+    .mm #order2 img {
+        width: 100%;
+    }
+    .mm #break {
+        display: none;
+    }
+}

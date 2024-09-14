@@ -1,0 +1,77 @@
+#Participate #sponstxt {
+    background-image: url(/src/Images/PartImg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#Participate {
+    background-color: #e5d7b1;
+}
+#Participate .col-6 {
+    display: grid;
+    width: 45%;
+    padding: 200px 5%;
+}
+#Participate .Navsec a {
+    color: black;
+}
+#Participate .col-6 form input, #Participate .col-6 form select {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #696969;
+    margin-bottom: 4%;
+    padding: 0px 15px;
+}
+#Participate .col-6 form select {
+    font-family: Poppins;
+    color: #696969;
+}
+#Participate .col-6 form input::placeholder {
+    font-family: Poppins;
+    color: #696969;
+}
+#Participate .col-6 form {
+    font-family: Satoshi;
+}
+#Participate .col-6 form label {
+    font-weight: 700;
+    font-size: 18px;
+}
+#Participate .col-6 form button {
+    font-family: Poppins;
+    background-color: #008080;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 50px;
+    justify-self: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 780px) { 
+    #Participate #sponsform {
+        display: grid  ;
+    }
+    #Participate #sponstxt {
+        max-width: 100%;
+        width: 100%;
+        display: grid;
+        min-inline-size: fit-content;
+        padding: 10% 5%;
+        text-align: center;
+    }
+    #Participate #sponstxt h2 {
+        font-size: 20px;
+    }
+    #Participate #sponstxt p {
+        font-size: 15px;
+    }
+    #Participate #spofrom {
+        display: contents;
+        width: 100%;
+    }
+    #Participate .col-6 form {
+        padding: 5% 0px;
+    }
+}

@@ -1,0 +1,34 @@
+#item img {
+  padding: 0px 10%;
+}
+/* #glll .cfSdnU {
+  display: none;
+} */
+#glll .dMydrg {
+  background-color: transparent;
+}
+#glll .dMydrg:hover:enabled, #glll .dMydrg:focus:enabled {
+  color: #fff;
+  background-color: #bc983c;
+  box-shadow: 0 0 2px 0 #333;
+}
+#glll .fuFKqj {
+  color: #fff;
+  background-color: #bc983c;
+  box-shadow: 0 0 2px 0 #333;
+}
+#glll .fuFKqj:hover:enabled, #glll .fuFKqj:active:enabled {
+  border: #bc983c;
+  outline-color: #bc983c;
+  box-shadow: #bc983c;
+}
+
+@media (max-width: 768px) {
+  #glll .kDqOaG, #glll .dMydrg {
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    line-height: unset;
+    font-size: 10px;
+  }
+}

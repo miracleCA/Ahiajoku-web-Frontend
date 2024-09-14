@@ -1,0 +1,98 @@
+#lechd {
+    height: 800px;
+    background: url(/src/Images/Lecture\ Series.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#lechd #header {
+    padding: 0px 2%;
+}
+#brfhist {
+    background-color: #232323;
+    padding: 3% 7%;
+}
+#lecthist {
+    background-color: white;
+    color: black;
+    display: grid;
+    font-family: Satoshi;
+    padding: 3% 0px;
+    border-radius: 10px;
+}
+#listcont {
+    display: grid;
+    place-content: center;
+}
+#listcont ul {
+    padding: 1.5% 5%;
+}
+#listcont li {
+    font-weight: 600;
+    font-size: 20px;
+}
+#partic {
+    background-image: url(/src/Images/patic.png);
+    padding: 3% 7%;
+    padding-bottom: 0px;
+}
+#partic p {
+    font-weight: 600;
+}
+#partic h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+#partic span {
+    font-weight: 600;
+    margin: 0px 25%;
+    text-align: center;
+}
+#partic button {
+    border: none;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-top: 2%;
+    background: white;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px 20px
+}
+#partic button:hover {
+    background-color: #a58e31;
+    color: white;
+}
+#partic img {
+    margin-top: 12%;
+}
+
+@media screen and (max-width: 780px) {
+    #lechd span {
+        font-size: 22px;
+    }
+    #lechd #break {
+        display: none;
+    }
+    #listcont h2 {
+        font-size: 20px;
+    }
+    #listcont li {
+        font-size: 15px;
+    }
+    #partic {
+        padding: 0px 7%;
+    }
+    #partic p {
+        padding-top: 20px;
+    }
+    #partic h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+    #partic span {
+        margin: 0px;
+    }
+    #partic img {
+        width: 100%;
+    }
+}
